@@ -5,8 +5,8 @@
     <Project Path="Tyuiu.GilevaAP.Sprint1.Task0.V1/Tyuiu.GilevaAP.Sprint1.Task0.V1.csproj" />
   </Folder>
   <Folder Name="/Task1/">
-    <Project Path="Tyuiu.GilevaAP.Sprin1.Task1.V11/Tyuiu.GilevaAP.Sprin1.Task1.V11.csproj" Id="e370dae8-b300-4ca0-89ee-9f9229bcd200" />
     <Project Path="Tyuiu.GilevaAP.Sprint1.Task1.V11.Lib/Tyuiu.GilevaAP.Sprint1.Task1.V11.Lib.csproj" Id="e25afc66-214d-44b4-b3e6-e0bd1e93599e" />
     <Project Path="Tyuiu.GilevaAP.Sprint1.Task1.V11.Test/Tyuiu.GilevaAP.Sprint1.Task1.V11.Test.csproj" Id="219027b7-1a2b-46e6-8156-67aea18a0f9f" />
+    <Project Path="Tyuiu.GilevaAP.Sprint1.Task1.V11/Tyuiu.GilevaAP.Sprint1.Task1.V11.csproj" Id="27d1e3f0-aa9a-4af2-a910-e65e499ab8a1" />
   </Folder>
 </Solution>
