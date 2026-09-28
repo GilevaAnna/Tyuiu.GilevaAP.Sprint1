@@ -22,8 +22,9 @@ namespace Tyuiu.GilevaAP.Sprint1.Task6.V1
                 {
                     break;
                 }
-                string res = ds.SymbolCode(input);
-                Console.WriteLine(res);
+                string code = ds.SymbolCode(input);
+                char c = input[0];
+                Console.WriteLine($"Символ: {c} Код: {code}");
             }
         }
     }

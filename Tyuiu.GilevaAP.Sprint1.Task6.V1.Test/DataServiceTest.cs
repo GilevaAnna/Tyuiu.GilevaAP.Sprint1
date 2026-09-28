@@ -9,13 +9,13 @@ namespace Tyuiu.GilevaAP.Sprint1.Task6.V1.Test
         {
             DataService ds = new DataService();
             string res = ds.SymbolCode("1");
-            Assert.AreEqual("Символ: 1 Код: 49", res);
+            Assert.AreEqual("49", res);
         }
         public void ExampleA()
         {
             DataService ds = new DataService();
             string res = ds.SymbolCode("A");
-            Assert.AreEqual("Символ: A Код: 65", res);
+            Assert.AreEqual("65", res);
         }
         public void Example0()
         {
@@ -27,7 +27,7 @@ namespace Tyuiu.GilevaAP.Sprint1.Task6.V1.Test
         {
             DataService ds = new DataService();
             string res = ds.SymbolCode("ABC");
-            Assert.AreEqual("Символ: A Код: 65", res);
+            Assert.AreEqual("65", res);
         }
         public void ExampleDot()
         {

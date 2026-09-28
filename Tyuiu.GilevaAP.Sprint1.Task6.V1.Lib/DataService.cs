@@ -7,11 +7,10 @@ namespace Tyuiu.GilevaAP.Sprint1.Task6.V1.Lib
         {
             if (string.IsNullOrEmpty(value))
             {
-                return "Error: 0 string";
+                return "";
             }
             char c = value[0];
-            int code = (int)c;
-            return $"Символ: {c} Код: {code}";
+            return ((int)c).ToString();
         }
         public bool IsDot(string value)
         {
