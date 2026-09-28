@@ -11,7 +11,7 @@ namespace Tyuiu.GilevaAP.Sprint1.Task6.V1.Lib
             }
             char c = value[0];
             int code = (int)c;
-            return $"Symbol: {c} Code: {code}";
+            return $"Символ: {c} Код: {code}";
         }
         public bool IsDot(string value)
         {
